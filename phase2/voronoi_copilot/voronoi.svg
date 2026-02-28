@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="6" height="6" viewBox="-1 -1 6 6" display-inline="False">
+<defs>
+</defs>
+<path d="M2.0,-1.5 L0.25,2.0" stroke="green" stroke-width="0.02" />
+<path d="M2.0,-1.5 L3.5,1.5" stroke="green" stroke-width="0.02" />
+<path d="M0.25,2.0 L1.2142857142857142,2.642857142857143" stroke="green" stroke-width="0.02" />
+<path d="M0.5,0.5 L3.5,1.5" stroke="green" stroke-width="0.02" />
+<path d="M0.5,0.5 L1.2142857142857142,2.642857142857143" stroke="green" stroke-width="0.02" />
+<path d="M3.5,1.5 L1.2142857142857142,2.642857142857143" stroke="green" stroke-width="0.02" />
+<circle cx="0" cy="0" r="0.05" fill="blue" />
+<circle cx="4" cy="0" r="0.05" fill="blue" />
+<circle cx="4" cy="4" r="0.05" fill="blue" />
+<circle cx="0" cy="4" r="0.05" fill="blue" />
+<circle cx="2" cy="1" r="0.05" fill="blue" />
+<circle cx="3" cy="3" r="0.05" fill="blue" />
+<rect x="-1" y="-1" width="6" height="6" fill="none" stroke="black" stroke-width="0.01" />
+</svg>
