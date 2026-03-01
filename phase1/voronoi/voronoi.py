@@ -109,7 +109,7 @@ def generate_voronoi(file = None):
             grille[ligne][colonne] = index_point_proche
 
     #plt.figure(figsize=(5,8))
-    plot1.contour(grille, colors='red', extent=(0, max_points_x, 0, max_points_y), origin='lower') #affiche frontière voronoie
+    plot1.imshow(grille, extent=(0, max_points_x, 0, max_points_y), origin='lower') #affiche frontière voronoie en coloriant à chaque fois que le x,y de chaque pixel de la grille change
     plot1.scatter([point.x for point in tab_points], [point.y for point in tab_points])
 
     canvas.draw()
@@ -120,7 +120,6 @@ def generate_voronoi(file = None):
 
 
 
-# from math import sqrt
 
 load_button = tkinter.Button(master=window, text="Ouvrir un fichier", command=load_file)
 load_button.pack()
